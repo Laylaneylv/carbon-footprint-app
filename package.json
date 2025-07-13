@@ -1,0 +1,56 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red236\green241\blue247;\red0\green0\blue0;\red144\green1\blue18;
+\red9\green60\blue148;}
+{\*\expandedcolortbl;;\cssrgb\c94118\c95686\c97647;\cssrgb\c0\c0\c0;\cssrgb\c63922\c8235\c8235;
+\cssrgb\c1569\c31765\c64706;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf0 \cb2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \{\cb1 \strokec3 \
+\cb2 \strokec3   \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "personal-carbon-footprint-calculator"\cf0 \strokec3 ,\cb1 \strokec3 \
+\cb2 \strokec3   \cf4 \strokec4 "version"\cf0 \strokec3 : \cf5 \strokec5 "1.0.0"\cf0 \strokec3 ,\cb1 \strokec3 \
+\cb2 \strokec3   \cf4 \strokec4 "private"\cf0 \strokec3 : \cf5 \strokec5 true\cf0 \strokec3 ,\cb1 \strokec3 \
+\cb2 \strokec3   \cf4 \strokec4 "description"\cf0 \strokec3 : \cf5 \strokec5 "A web application to calculate and track personal carbon footprint with actionable insights."\cf0 \strokec3 ,\cb1 \strokec3 \
+\cb2 \strokec3   \cf4 \strokec4 "main"\cf0 \strokec3 : \cf5 \strokec5 "src/index.js"\cf0 \strokec3 ,\cb1 \strokec3 \
+\cb2 \strokec3   \cf4 \strokec4 "dependencies"\cf0 \strokec3 : \{\cb1 \strokec3 \
+\cb2 \strokec3     \cf4 \strokec4 "firebase"\cf0 \strokec3 : \cf5 \strokec5 "^10.12.3"\cf0 \strokec3 ,\cb1 \strokec3 \
+\cb2 \strokec3     \cf4 \strokec4 "react"\cf0 \strokec3 : \cf5 \strokec5 "^18.3.1"\cf0 \strokec3 ,\cb1 \strokec3 \
+\cb2 \strokec3     \cf4 \strokec4 "react-dom"\cf0 \strokec3 : \cf5 \strokec5 "^18.3.1"\cf0 \strokec3 ,\cb1 \strokec3 \
+\cb2 \strokec3     \cf4 \strokec4 "recharts"\cf0 \strokec3 : \cf5 \strokec5 "^2.12.7"\cf0 \cb1 \strokec3 \
+\cb2 \strokec3   \},\cb1 \strokec3 \
+\cb2 \strokec3   \cf4 \strokec4 "devDependencies"\cf0 \strokec3 : \{\cb1 \strokec3 \
+\cb2 \strokec3     \cf4 \strokec4 "autoprefixer"\cf0 \strokec3 : \cf5 \strokec5 "^10.4.19"\cf0 \strokec3 ,\cb1 \strokec3 \
+\cb2 \strokec3     \cf4 \strokec4 "postcss"\cf0 \strokec3 : \cf5 \strokec5 "^8.4.38"\cf0 \strokec3 ,\cb1 \strokec3 \
+\cb2 \strokec3     \cf4 \strokec4 "tailwindcss"\cf0 \strokec3 : \cf5 \strokec5 "^3.4.4"\cf0 \strokec3 ,\cb1 \strokec3 \
+\cb2 \strokec3     \cf4 \strokec4 "react-scripts"\cf0 \strokec3 : \cf5 \strokec5 "5.0.1"\cf0 \cb1 \strokec3 \
+\cb2 \strokec3   \},\cb1 \strokec3 \
+\cb2 \strokec3   \cf4 \strokec4 "scripts"\cf0 \strokec3 : \{\cb1 \strokec3 \
+\cb2 \strokec3     \cf4 \strokec4 "start"\cf0 \strokec3 : \cf5 \strokec5 "react-scripts start"\cf0 \strokec3 ,\cb1 \strokec3 \
+\cb2 \strokec3     \cf4 \strokec4 "build"\cf0 \strokec3 : \cf5 \strokec5 "react-scripts build"\cf0 \strokec3 ,\cb1 \strokec3 \
+\cb2 \strokec3     \cf4 \strokec4 "test"\cf0 \strokec3 : \cf5 \strokec5 "react-scripts test"\cf0 \strokec3 ,\cb1 \strokec3 \
+\cb2 \strokec3     \cf4 \strokec4 "eject"\cf0 \strokec3 : \cf5 \strokec5 "react-scripts eject"\cf0 \cb1 \strokec3 \
+\cb2 \strokec3   \},\cb1 \strokec3 \
+\cb2 \strokec3   \cf4 \strokec4 "eslintConfig"\cf0 \strokec3 : \{\cb1 \strokec3 \
+\cb2 \strokec3     \cf4 \strokec4 "extends"\cf0 \strokec3 : [\cb1 \strokec3 \
+\cb2 \strokec3       \cf5 \strokec5 "react-app"\cf0 \strokec3 ,\cb1 \strokec3 \
+\cb2 \strokec3       \cf5 \strokec5 "react-app/jest"\cf0 \cb1 \strokec3 \
+\cb2 \strokec3     ]\cb1 \strokec3 \
+\cb2 \strokec3   \},\cb1 \strokec3 \
+\cb2 \strokec3   \cf4 \strokec4 "browserslist"\cf0 \strokec3 : \{\cb1 \strokec3 \
+\cb2 \strokec3     \cf4 \strokec4 "production"\cf0 \strokec3 : [\cb1 \strokec3 \
+\cb2 \strokec3       \cf5 \strokec5 ">0.2%"\cf0 \strokec3 ,\cb1 \strokec3 \
+\cb2 \strokec3       \cf5 \strokec5 "not dead"\cf0 \strokec3 ,\cb1 \strokec3 \
+\cb2 \strokec3       \cf5 \strokec5 "not op_mini all"\cf0 \cb1 \strokec3 \
+\cb2 \strokec3     ],\cb1 \strokec3 \
+\cb2 \strokec3     \cf4 \strokec4 "development"\cf0 \strokec3 : [\cb1 \strokec3 \
+\cb2 \strokec3       \cf5 \strokec5 "last 1 chrome version"\cf0 \strokec3 ,\cb1 \strokec3 \
+\cb2 \strokec3       \cf5 \strokec5 "last 1 firefox version"\cf0 \strokec3 ,\cb1 \strokec3 \
+\cb2 \strokec3       \cf5 \strokec5 "last 1 safari version"\cf0 \cb1 \strokec3 \
+\cb2 \strokec3     ]\cb1 \strokec3 \
+\cb2 \strokec3   \}\cb1 \strokec3 \
+\cb2 \strokec3 \}\cb1 \strokec3 \
+\
+}
